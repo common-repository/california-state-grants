@@ -1,0 +1,46 @@
+/**
+ * CaGov\Grants - Admin Styles
+ */
+
+@import "@10up/component-tooltip";
+
+a.a11y-tip__trigger {
+	text-decoration: none;
+}
+
+[role="tooltip"].a11y-tip__help {
+	font-weight: 400;
+	min-width: 360px;
+	padding: 1.5em;
+	z-index: 100000;
+}
+
+.error-message.srt {
+	display: none;
+}
+
+th.required label::after {
+	content: "*";
+	padding-left: 0.2rem;
+}
+
+.form-field-group-wrapper > td {
+	border: 1px solid #c3c4c7;
+	display: block;
+}
+
+#side-sortables .form-table.--side,
+#side-sortables .form-table.--side tr,
+#side-sortables .form-table.--side td,
+#side-sortables .form-table.--side th {
+	display: block;
+}
+
+#side-sortables .form-table.--side th {
+	padding-bottom: 0;
+}
+
+#side-sortables .form-table.--side td {
+	padding-left: 0;
+	padding-right: 0;
+}
